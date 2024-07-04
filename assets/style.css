@@ -10,7 +10,7 @@ body {
     position: relative;
     height: 575px;
     top: -1px;
-    background-image: url("/assets/imgs/home-1.jpg");
+    background-image: url("../assets/imgs/home-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
