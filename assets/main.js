@@ -49,14 +49,14 @@ handleScreenChange(isMobile);
 
 function changeImg() {
     let random = Math.floor(Math.random() * images.length);
-    landing.style.backgroundImage = 'url("/assets/imgs/' + images[random] + '")';
+    landing.style.backgroundImage = 'url("../assets/imgs/' + images[random] + '")';
     maintext.innerHTML = script[random];
     sectext.innerHTML = secscript[random];
 }
 
 function changeMobile() {
     let randomnum = Math.floor(Math.random() * mobileImages.length);
-    landing.style.backgroundImage = 'url("/assets/imgs/' + mobileImages[randomnum] + '")';
+    landing.style.backgroundImage = 'url("../assets/imgs/' + mobileImages[randomnum] + '")';
     maintext.innerHTML = script[randomnum];
     sectext.innerHTML = secscript[randomnum];
 }
